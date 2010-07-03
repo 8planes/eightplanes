@@ -1,0 +1,80 @@
+body {
+   font-family: sans-serif;
+}
+
+.logo {
+   background-color: #afafaf;
+}
+
+.logo div {
+   height: 140px;
+   width: 620px;
+   float: left;
+   background: white url('../images/8planes.png') no-repeat -18px -28px;
+}
+
+.leftColumn {
+   float: left;
+}
+.rightColumn {
+   margin-left: 620px;
+}
+
+.titleText, .hdivider {
+   background-color: #f4f4f4;
+   color: #7b7b7b;
+}
+
+.titleText {
+   padding: 8px;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 32px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.projectContainer {
+   width: 620px;
+   height: 240px;
+   position: relative;
+}
+
+.projectDescription {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 620px;
+   padding: 22px;
+   background-color: white;
+   color: #7B7B7B;
+   opacity: 0.85;
+   font-weight: bold;
+}
+
+#unisubsContainer {
+   background-image: url(../images/unisubs.png);
+   background-position: 0 -280px;
+}
+
+#langolabContainer {
+   background-image: url(../images/langolab.png);
+}
+
+#mvcContainer {
+   background-image: url(../images/mvc.png);
+}
+
+#ietContainer {
+   background-image: url(../images/iet0.png);
+}

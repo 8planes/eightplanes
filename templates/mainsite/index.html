@@ -1,53 +1,39 @@
 {% extends 'base.html' %}
 
 {% block main_content %}
+<div class="logo clearfix">
+  <div>&nbsp;</div>
+</div>
+<div class="hdivider clearfix">
+  <div class="leftColumn titleText">
+    WHAT WE'VE DONE
+  </div>
+  <div class="rightColumn titleText">
+    CONNECT WITH US
+  </div>
+</div>
 <div id="leftColumn">
-  <h1>8 Planes</h1>
-  <h2>New School Development: Web and Mobile Apps</h2>
-  <p>We specialize in Javascript, Django, Erlang, and iPhone development.</p>
-  <ul>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/wiki">Wiki</a></li>
-    <li><a href="/about">About Us</a></li>
-    <li><a href="/contact">Contact Us</a></li>
-  </ul>
+  <div id="unisubsContainer" class="projectContainer">
+    <div class="projectDescription">
+      Universal Subtitles: collaborative video subtitling and translation.
+    </div>
+  </div>
+  <div id="langolabContainer" class="projectContainer">
+    <div class="projectDescription">
+      Langolab: foreign language education through subtitled online video
+    </div>
+  </div>
+  <div id="mvcContainer" class="projectContainer">
+    <div class="projectDescription">
+      Miro Video Converter: dead-simple video format conversion
+    </div>
+  </div>
+  <div id="ietContainer" class="projectContainer">
+    <div class="projectDescription">
+      iEarnedThat: our first iPhone app
+    </div>
+  </div>
 </div>
 <div id="rightColumn">
-  <table>
-    <tr>
-      <td>
-	<a href="/projects/universalsubtitles">
-	  <img src="{{MEDIA_URL}}images/projects/unisubs.jpg" alt=""/>
-	</a>
-	<br/>
-	Universal Subtitles
-      </td>
-      <td>
-	<a href="/projects/mirovideoconverter">
-	  <img src="{{MEDIA_URL}}images/projects/mvc.jpg" alt=""/>
-	</a>
-	<br/>
-	Miro Video Converter
-      </td>
-      <td>
-	<a href="/projects/iearnedthat">
-	  <img src="{{MEDIA_URL}}images/iearnedthat.jpg" alt=""/>
-	</a>
-	<br/>
-	iEarnedThat
-      </td>
-    </tr>
-    <tr>
-      <td>
-	<a href="/projects/langolab">
-	  <img src="{{MEDIA_URL}}images/langolab.jpg" alt=""/>
-	</a>
-	<br/>
-	LangoLAB
-      </td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
 </div>
 {% endblock %}
